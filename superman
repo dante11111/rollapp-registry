@@ -1,0 +1,35 @@
+{
+  "chainId": "SUPERMAN_11111111-1",
+  "chainName": "superman",
+  "rpc": "https://rpc.dymension-rollapp.superman-node.tech",
+  "rest": "https://rest.dymension-rollapp.superman-node.tech",
+  "bech32Prefix": "ethm",
+  "currencies": [
+    {
+      "displayDenom": "SUPER",
+      "baseDenom": "uSUPER",
+      "decimals": 18,
+      "logo": "/logos/SUPERMAN.png",
+      "type": "main"
+    }
+  ],
+  "coinType": 60,
+  "faucetUrl": "https://discord.com/channels/956961633165529098/1143231362468434022",
+  "website": "",
+  "logo": "/logos/SUPERMAN.jpg",
+  "ibc": {
+    "hubChannel": "channel-5401",
+    "channel": "channel-0",
+    "timeout": 172800000
+  },
+  "evm": {
+    "chainId": "0x965074",
+    "rpc": "https://evm.dymension-rollapp.SUPERMAN-node.tech"
+  },
+  "type": "RollApp",
+  "da": "Celestia",
+  "description": "",
+  "analytics": true,
+  "rewards": true,
+  "active": false
+}
